@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    font-size: 32px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#likebtn,
+#dislikebtn {
+    display: inline-block;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #eaeaea;
+}
+
+#likebtn:hover {
+    background-color: #d4edda;
+}
+
+#dislikebtn:hover {
+    background-color: #f8d7da;
+}
+
+.comments {
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.comments h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+
+textarea {
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#submit,
+#clear {
+    padding: 10px 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #d4edda;
+}
+
+#clear:hover {
+    background-color: #f8d7da;
+}
